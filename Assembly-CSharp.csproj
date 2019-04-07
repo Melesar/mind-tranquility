@@ -92,6 +92,7 @@
     <Compile Include="Assets\MindTranquility\Scripts\UI\Blur.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\UI\BlurOptimized.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\UI\ConnectionPopup.cs" />
+    <Compile Include="Assets\MindTranquility\Scripts\UI\CountdownView.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\UI\GameOverView.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\UI\GameViewController.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\UI\InputValidationAnimation.cs" />

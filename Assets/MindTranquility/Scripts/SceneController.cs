@@ -10,6 +10,8 @@ public class SceneController : MonoBehaviour, ISessionListener
     [SerializeField]
     private TaskHandle _gameLoadedHandle;
 
+    private bool IsGameSceneLoaded => SceneManager.GetSceneByName(GAME_SCENE).isLoaded;
+    
     private const string MAIN_MENU_SCENE = "MainMenu";
     private const string GAME_SCENE = "GameScene";
 
@@ -49,17 +51,19 @@ public class SceneController : MonoBehaviour, ISessionListener
         LoadMainMenu();
     }
 
-    private void OnDestroy()
-    {
-    }
-
     public void OnSessionStart()
     {
-        LoadGameScene();
+        if (!IsGameSceneLoaded)
+        {
+            LoadGameScene();
+        }
     }
 
     public void OnSessionEnd()
     {
-        Invoke(nameof(BackToMenu), 3f);
+        if (IsGameSceneLoaded)
+        {
+            Invoke(nameof(BackToMenu), 3f);
+        }
     }
 }

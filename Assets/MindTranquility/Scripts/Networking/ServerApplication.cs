@@ -132,11 +132,5 @@ public class ServerApplication : ConnectionHandler
         SetMessageHandler<ConnectionRequest>(OnConnectionRequest);
         SetMessageHandler<MeditationMessage>(OnMeditationMessage);
         SetMessageHandler<ReadyNotification>(OnReadyNotification);
-        SetMessageHandler<PlayerData>(PDH);
-    }
-
-    private IUnityTask PDH(PlayerData message, IPEndPoint address)
-    {
-        return EmptyTask;
     }
 }
