@@ -13,10 +13,11 @@ namespace Common
         private Thread _listeningThread;
         private readonly UdpClient _client;
 
-        private const int SERVER_PORT = 1432;
-        private const int CLIENT_PORT = 1444;
+        private const int SERVER_PORT = 51105;
+        private const int CLIENT_PORT = 51205;
 
-        private static readonly IPAddress _multicastAddress = IPAddress.Parse("226.192.1.1");
+        private static readonly IPAddress _multicastAddress = IPAddress.Parse("239.192.1.1");
+        private static readonly IPEndPoint _multicastEndPoint = new IPEndPoint(_multicastAddress, CLIENT_PORT);
         private NetworkLogger _logger;
 
         public static UDPConnection CreateClient()
@@ -73,7 +74,7 @@ namespace Common
 
         public void Multicast(IMessage message)
         {
-            Send(message, new IPEndPoint(_multicastAddress, CLIENT_PORT));
+            Send(message, _multicastEndPoint);
         }
 
         public void JoinMulticastGroup()
@@ -130,6 +131,7 @@ namespace Common
         private UDPConnection(UdpClient client)
         {
             _client = client;
+            Debug.Log("Address family: " + client.Client.AddressFamily);
         }
 
         public void Dispose()
