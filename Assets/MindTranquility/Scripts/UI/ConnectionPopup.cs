@@ -7,6 +7,8 @@ using UnityEngine.Serialization;
 public class ConnectionPopup : Popup
 {
     [SerializeField]
+    private Animation _animation;
+    [SerializeField]
     private TMP_InputField _nameInput;
     [FormerlySerializedAs("_connectionHandler")]
     [SerializeField]
@@ -43,7 +45,8 @@ public class ConnectionPopup : Popup
     }
     
     private const string NAME_PREFS = "player_name";
-    
+    private const string DISAPPEAR_ANIMATION = "popup_disappear";
+
     public void SetHost()
     {
         _isHost = true;
@@ -96,11 +99,9 @@ public class ConnectionPopup : Popup
         
         _connectionHandle.IsHost = _isHost;
         _connectionHandle.PlayerName = PlayerName;
-        _connectionHandle.AddTask(new ActionTask(this, () =>
-        {
-            Close();
-            _isConnected = true;
-        }), TaskHandle.PRIORITY_UI_EFFECTS);
+        
+        var closeTask = CreateCloseTask();
+        _connectionHandle.AddTask(closeTask, TaskHandle.PRIORITY_UI_EFFECTS);
         _connectionHandle.ReadyToConnect();
     }
 
@@ -127,6 +128,24 @@ public class ConnectionPopup : Popup
     {
         base.OnOpen();
         SetConnectionState();
+    }
+
+    protected override void OnClose()
+    {
+        base.OnClose();
+        CreateCloseTask().Execute();
+    }
+
+    private ITask CreateCloseTask()
+    {
+        var closeTask = new TaskSequence(this);
+        closeTask.Add(new DisappearAnimationTask(this, _animation, DISAPPEAR_ANIMATION));
+        closeTask.Add(new ActionTask(() =>
+        {
+            Clear();
+            _isConnected = true;
+        }));
+        return closeTask;
     }
 
     private void SetConnectionState()
@@ -163,5 +182,25 @@ public class ConnectionPopup : Popup
         _isProblem = false;
         
         SetConnectionState();
+    }
+
+    private class DisappearAnimationTask : Task
+    {
+        private readonly Animation _animation;
+        private readonly string _animationName;
+
+        public DisappearAnimationTask(MonoBehaviour holder, Animation animation, string animationName) : base(holder)
+        {
+            _animation = animation;
+            _animationName = animationName;
+        }
+
+        protected override IEnumerator ExecuteCoroutine()
+        {
+            _animation.Play(_animationName);
+            var clip = _animation.GetClip(_animationName);
+
+            yield return new WaitForSeconds(clip.length);
+        }
     }
 }

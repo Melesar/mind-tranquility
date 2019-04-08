@@ -21,7 +21,10 @@ public class TaskSequence : Task
         foreach (var task in _tasks)
         {
             task.Execute();
-            yield return new WaitUntil(() => !task.IsExecuting);
+            if (task.IsExecuting)
+            {
+                yield return new WaitUntil(() => !task.IsExecuting);
+            }
         }
     }
 }

@@ -37,6 +37,7 @@ public class ParallelTask : Task
         {
             if (task.IsExecuting)
             {
+                Debug.Log($"Task {task.GetType()} is hanging");
                 return false;
             }
         }

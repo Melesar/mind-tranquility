@@ -35,7 +35,9 @@ public class GameOverView : MonoBehaviour
         canvasGroup.alpha = 0f;
         tr.localScale = new Vector3(0.3f, 0.2f, 1f);
 
-        tr.DOScale(1f, 0.8f);
-        canvasGroup.DOFade(1f, 1f);
+        var sequence = DOTween.Sequence();
+        sequence.Append(tr.DOScale(1f, 0.8f));
+        sequence.Join(canvasGroup.DOFade(1f, 1f));
+        sequence.Play();
     }
 }

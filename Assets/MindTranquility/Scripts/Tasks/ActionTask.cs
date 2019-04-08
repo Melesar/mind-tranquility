@@ -2,18 +2,21 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class ActionTask : Task
+public class ActionTask : ITask
 {
     private readonly Action _action;
 
-    public ActionTask(MonoBehaviour coroutineHolder, Action action) : base(coroutineHolder)
+    public ActionTask(Action action)
     {
         _action = action;
     }
 
-    protected override IEnumerator ExecuteCoroutine()
+    public void Execute() 
     {
         _action?.Invoke();
-        yield break;
+        onFinish?.Invoke();
     }
+
+    public event Action onFinish;
+    public bool IsExecuting => false;
 }

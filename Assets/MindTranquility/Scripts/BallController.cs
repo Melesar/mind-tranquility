@@ -42,6 +42,6 @@ public class BallController : MonoBehaviour
 
     private void Start()
     {
-        _gameLoadedHandle.AddTask(new ActionTask(this, () => _isMoving = true), TaskHandle.PRIORITY_UI_EFFECTS + 5);
+        _gameLoadedHandle.AddTask(new ActionTask(() => _isMoving = true), TaskHandle.PRIORITY_UI_EFFECTS + 5);
     }
 } 

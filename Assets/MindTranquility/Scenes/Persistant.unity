@@ -373,7 +373,7 @@ MonoBehaviour:
   _connectionHandle: {fileID: 11400000, guid: 525fcaa7df460d14eaabe37d20afbacd, type: 2}
   _synchronizationData: {fileID: 11400000, guid: 7df4f2f77fdcd0a40894628468e4583c,
     type: 2}
-  _localSession: 0
+  _localSession: 1
 --- !u!4 &1500670860
 Transform:
   m_ObjectHideFlags: 0

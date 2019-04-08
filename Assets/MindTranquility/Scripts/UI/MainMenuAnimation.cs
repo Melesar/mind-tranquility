@@ -78,12 +78,17 @@ public class MainMenuAnimation : MonoBehaviour
 
         public void Execute()
         {
-            _tween = _group.DOFade(0f, _globalFadeDuration).OnComplete(() => onFinish?.Invoke());
+            _tween = _group.DOFade(0f, _globalFadeDuration).OnComplete(() =>
+            {
+                _tween = null;
+                onFinish?.Invoke();
+            })
+            .Play();
         }
 
         public FadeOutTask(CanvasGroup group, float globalFadeDuration)
         {
-            _group = @group;
+            _group = group;
             _globalFadeDuration = globalFadeDuration;
         }
 

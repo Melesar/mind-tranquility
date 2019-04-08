@@ -26,10 +26,15 @@ namespace Common
             }
 
             var task = _queue.Dequeue();
+            if (task == null)
+            {
+                ExecuteNextTask();
+                return;
+            }
+            
             try
             {
                 task.Execute();
-                //Log(task);
             }
             catch (Exception e)
             {

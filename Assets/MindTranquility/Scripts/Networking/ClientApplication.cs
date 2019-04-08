@@ -81,7 +81,7 @@ public class ClientApplication : ConnectionHandler
     {
         if (_isConnected)
         {
-            _connection.Send(new MeditationMessage(newValue));
+            _connection.Send(new MeditationMessage(newValue), _connectedTo);
         }
     }
 

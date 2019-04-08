@@ -13,23 +13,26 @@ namespace Common
         private Thread _listeningThread;
         private readonly UdpClient _client;
 
-        private const int SERVER_PORT = 51105;
-        private const int CLIENT_PORT = 51205;
+        private const int SERVER_PORT = 1444;
+        private const int CLIENT_PORT = 1440;
 
-        private static readonly IPAddress _multicastAddress = IPAddress.Parse("239.192.1.1");
+        private static readonly IPAddress _multicastAddress = IPAddress.Parse("224.0.0.251");
         private static readonly IPEndPoint _multicastEndPoint = new IPEndPoint(_multicastAddress, CLIENT_PORT);
         private NetworkLogger _logger;
 
         public static UDPConnection CreateClient()
         {
-            var connection = new UDPConnection(new UdpClient(CLIENT_PORT)) {_logger = new NetworkLogger(true)};
-            connection.JoinMulticastGroup();
+            var client = new UdpClient(CLIENT_PORT);
+            client.JoinMulticastGroup(_multicastAddress);
+            
+            var connection = new UDPConnection(client) {_logger = new NetworkLogger(true)};
             return connection;
         }
 
         public static UDPConnection CreateServer()
         {
-            var connection = new UDPConnection(new UdpClient(SERVER_PORT)) {_logger = new NetworkLogger(false)};
+            var client = new UdpClient(SERVER_PORT);
+            var connection = new UDPConnection(client) {_logger = new NetworkLogger(false)};
             return connection;
         }
 
@@ -77,16 +80,6 @@ namespace Common
             Send(message, _multicastEndPoint);
         }
 
-        public void JoinMulticastGroup()
-        {
-            _client.JoinMulticastGroup(_multicastAddress);
-        }
-
-        public void LeaveMulticastGroup()
-        {
-            _client.DropMulticastGroup(_multicastAddress);
-        }
-
         public void Listen(IConnectionListener listener)
         {
             _listener = listener;
@@ -131,7 +124,6 @@ namespace Common
         private UDPConnection(UdpClient client)
         {
             _client = client;
-            Debug.Log("Address family: " + client.Client.AddressFamily);
         }
 
         public void Dispose()
