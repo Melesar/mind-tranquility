@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fe3d9f1146a46c0ad5603cb6a660dfb, type: 3}
-  m_Name: Task System
+  m_Name: GameLoadedHandle
   m_EditorClassIdentifier: 
-  _batchSize: 4
+  _clearOnFinish: 1

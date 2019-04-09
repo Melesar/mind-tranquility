@@ -37,6 +37,28 @@ public class TaskHandle : ScriptableObject
 
     public void ExecuteTasks(Action onComplete = null)
     {
+        var sequence = CreateTask();
+
+        if (onComplete != null)
+        {
+            sequence.onFinish += onComplete;
+        }
+        
+        if (_clearOnFinish)
+        {
+            sequence.onFinish += Clear;
+        }
+        
+        sequence.Execute();
+    }
+
+    public ITask ToTask()
+    {
+        return CreateTask();
+    }
+
+    private TaskSequence CreateTask()
+    {
         var sequence = new TaskSequence(_holder);
         foreach (var taskList in _tasks.Values)
         {
@@ -49,16 +71,7 @@ public class TaskHandle : ScriptableObject
             sequence.Add(paralell);
         }
 
-        if (onComplete != null)
-        {
-            sequence.onFinish += onComplete;
-        }
-
-        if (_clearOnFinish)
-        {
-            sequence.onFinish += Clear;
-        }
-        sequence.Execute();
+        return sequence;
     }
 
     public void Clear()

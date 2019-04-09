@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TaskSequence : Task
+public class TaskSequence : Task, ITaskContainer
 {
     private readonly List<ITask> _tasks;
 

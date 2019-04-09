@@ -81,12 +81,14 @@
     <Compile Include="Assets\MindTranquility\Scripts\SceneController.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\ActionTask.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\Base\ITask.cs" />
+    <Compile Include="Assets\MindTranquility\Scripts\Tasks\Base\ITaskContainer.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\Base\ParallelTask.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\Base\Task.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\Base\TaskSequence.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\ClientsReadyTask.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\InstantiationTask.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\SendMessageTask.cs" />
+    <Compile Include="Assets\MindTranquility\Scripts\Tasks\TaskExtensions.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\TaskHandle.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\Tasks\UI\BlurTask.cs" />
     <Compile Include="Assets\MindTranquility\Scripts\UI\Blur.cs" />

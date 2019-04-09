@@ -15,6 +15,8 @@ public class BlurOptimized : MonoBehaviour
     [FormerlySerializedAs("blurShader")]
     [SerializeField]
     private Shader _blurShader;
+    [SerializeField]
+    private TaskHandle _taskHandle;
 
     private Camera _camera;
     private Material _blurMaterial;
@@ -38,6 +40,9 @@ public class BlurOptimized : MonoBehaviour
     {
         _blurMaterial = new Material(_blurShader);
         _camera = GetComponent<Camera>();
+
+        _taskHandle.SetCoroutineHolder(this);
+        _taskHandle.AddTask(new BlurTask(this, this), 0);
     }
 
     private void Start()

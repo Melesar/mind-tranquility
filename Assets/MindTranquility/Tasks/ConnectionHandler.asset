@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fe3d9f1146a46c0ad5603cb6a660dfb, type: 3}
-  m_Name: GameLoadedHandle
+  m_Script: {fileID: 11500000, guid: 59bb4e290b8949cabd3b8fd51a607834, type: 3}
+  m_Name: ConnectionHandler
   m_EditorClassIdentifier: 
+  _clearOnFinish: 1

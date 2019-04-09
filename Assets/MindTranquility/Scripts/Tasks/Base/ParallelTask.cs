@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParallelTask : Task
+public class ParallelTask : Task, ITaskContainer
 {
     private readonly List<ITask> _tasks;
 
@@ -37,7 +37,6 @@ public class ParallelTask : Task
         {
             if (task.IsExecuting)
             {
-                Debug.Log($"Task {task.GetType()} is hanging");
                 return false;
             }
         }

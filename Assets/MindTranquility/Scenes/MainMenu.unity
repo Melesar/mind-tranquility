@@ -1119,6 +1119,7 @@ MonoBehaviour:
   _blurIterations: 2
   _blurTexture: {fileID: 8400000, guid: 37f35e2f2b9c31f459a749449ba2b87f, type: 2}
   _blurShader: {fileID: 4800000, guid: ed64b44f63aa8504bad9301db1a46f41, type: 3}
+  _taskHandle: {fileID: 11400000, guid: 0f71deb6fbca6c74d96aa8b564aefa09, type: 2}
 --- !u!1 &1971130575
 GameObject:
   m_ObjectHideFlags: 0
