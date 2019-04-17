@@ -53,8 +53,8 @@ public class ClientApplication : ConnectionHandler
         _isConnected = true;
         _connectedTo = senderAddress;
         _pendingConnection = null;
+        _connectionTimer = 0f;
         _notificationTask.SetAddress(_connectedTo);
-//        _connection.Connect(senderAddress);
         var debug = new DebugTask($"Connected to {_connectedTo}", _logger);
 
         var connectedEvent = new FireEventTask(connected);

@@ -373,7 +373,7 @@ MonoBehaviour:
   _connectionHandle: {fileID: 11400000, guid: 525fcaa7df460d14eaabe37d20afbacd, type: 2}
   _synchronizationData: {fileID: 11400000, guid: 7df4f2f77fdcd0a40894628468e4583c,
     type: 2}
-  _localSession: 1
+  _localSession: 0
 --- !u!4 &1500670860
 Transform:
   m_ObjectHideFlags: 0
@@ -404,7 +404,6 @@ MonoBehaviour:
   _synchronizationData: {fileID: 11400000, guid: 7df4f2f77fdcd0a40894628468e4583c,
     type: 2}
   _gameLoadedHandle: {fileID: 11400000, guid: b891b92f31b1d6c46a4b9b0103aae005, type: 2}
-  _updateInterval: 0.1
 --- !u!114 &1500670862
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1781,7 +1781,7 @@ MonoBehaviour:
   _waitingPanel: {fileID: 7358545535333971370}
   _mindReaderPanel: {fileID: 5371342201187957475}
   _validationAnimation: {fileID: 3664174795493071668}
-  _checkForProblems: 0
+  _checkForProblems: 1
 --- !u!111 &4389282042983708031
 Animation:
   m_ObjectHideFlags: 0

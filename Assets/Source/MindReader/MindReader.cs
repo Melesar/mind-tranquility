@@ -7,7 +7,7 @@ using Framework.References;
 using Jayrock.Json.Conversion;
 using UnityEngine;
 
-public abstract class MindReader : IMindReader
+public class MindReader : IMindReader
 {
     public virtual FloatReference Meditation => _meditation;
     public virtual FloatReference Focus => _focus;
@@ -15,60 +15,30 @@ public abstract class MindReader : IMindReader
     public virtual SignalStrength SignalStrength => _signalStrengthLevel;
 
     private SignalStrength _signalStrengthLevel;
-    private TcpClient _client;
-    private Stream _stream;
-    private byte[] _buffer;
 
     private readonly FloatReference _meditation;
     private readonly FloatReference _focus;
-    
-    protected readonly float _updateInterval;
+    private readonly GameObject _mindReaderProxy;
 
-    protected MindReader(float updateInterval)
+    public MindReader()
     {
-        InitConnection();
-        
-        _updateInterval = updateInterval;
         _meditation = new FloatReference {useConstantValue = true};
         _focus = new FloatReference {useConstantValue = true};
+        
+        UnityThinkGear.Init(true);
+        UnityThinkGear.StartStream();
+
+        _mindReaderProxy = SetupProxy();
     }
 
-    protected void Update()
+    private GameObject SetupProxy()
     {
-        if (!_stream.CanRead)
-        {
-            return;
-        }
+        var proxyObj = new GameObject("ThinkGear");
+        var proxy = proxyObj.AddComponent<MindReaderProxy>();
+        proxy.meditationChanged += SetMeditation;
+        proxy.signalStrengthChanged += SetSignalStrength;
 
-        var bytesRead = _stream.Read(_buffer, 0, _buffer.Length);
-        var packets = Encoding.ASCII.GetString(_buffer, 0, bytesRead).Split('\r');
-
-        foreach (string packet in packets)
-        {
-            if (packet.Length == 0)
-                continue;
-
-
-            Debug.Log(packet);
-            try
-            {
-                var primary = (IDictionary) JsonConvert.Import(typeof(IDictionary), packet);
-                if (primary.Contains("poorSignalLevel"))
-                {
-                    SetSignalStrength(int.Parse(primary["poorSignalLevel"].ToString()));                    
-                }
-                
-                if (primary.Contains("eSense"))
-                {
-                    var eSense = (IDictionary) primary["eSense"];
-                    SetFocus(int.Parse(eSense["attention"].ToString()));
-                    SetMeditation(int.Parse(eSense["meditation"].ToString()));
-                }
-            }
-            catch (Exception)
-            {
-            }
-        }
+        return proxyObj;
     }
 
     protected virtual void SetMeditation(int meditation)
@@ -100,19 +70,12 @@ public abstract class MindReader : IMindReader
             _signalStrengthLevel = SignalStrength.GoodSignal;
         }
     }
-
-    private void InitConnection()
-    {
-        _client = new TcpClient("127.0.0.1", 13854);
-        _stream = _client.GetStream();
-        _buffer = new byte[1024];
-        byte[] myWriteBuffer = Encoding.ASCII.GetBytes(@"{""enableRawOutput"": true, ""format"": ""Json""}");
-        _stream.Write(myWriteBuffer, 0, myWriteBuffer.Length);
-    }
     
     public virtual void Dispose()
     {
-        _client.Dispose();
-        _stream.Close();
+        UnityEngine.Object.Destroy(_mindReaderProxy);
+        
+        UnityThinkGear.StopStream();
+        UnityThinkGear.Close();
     }
 }

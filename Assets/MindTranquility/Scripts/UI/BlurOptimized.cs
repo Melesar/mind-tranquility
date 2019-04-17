@@ -49,7 +49,7 @@ public class BlurOptimized : MonoBehaviour
     {
         enabled = false;
     }
-
+    
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         var widthMod = 1.0f / (1.0f * (1 << _downsample));
@@ -98,5 +98,7 @@ public class BlurOptimized : MonoBehaviour
         {
             DestroyImmediate(_blurMaterial);
         }
+        
+        _taskHandle.Clear();
     }
 }

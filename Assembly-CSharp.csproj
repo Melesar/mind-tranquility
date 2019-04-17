@@ -107,6 +107,7 @@
     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
+    <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\ThinkGearController.cs" />
     <Compile Include="Assets\Source\Framework\AssetWrapper.cs" />
     <Compile Include="Assets\Source\Framework\Data\AnimatorParameter.cs" />
     <Compile Include="Assets\Source\Framework\Data\BoolVariable.cs" />
@@ -151,13 +152,12 @@
     <Compile Include="Assets\Source\Framework\UI\WindowDescriptor.cs" />
     <Compile Include="Assets\Source\Framework\UI\WindowInvoker.cs" />
     <Compile Include="Assets\Source\Framework\Utilites.cs" />
-    <Compile Include="Assets\Source\MindReader\CoroutineMindReader.cs" />
     <Compile Include="Assets\Source\MindReader\FakeCoroutineMindReader.cs" />
     <Compile Include="Assets\Source\MindReader\IMindReader.cs" />
     <Compile Include="Assets\Source\MindReader\MindReader.cs" />
     <Compile Include="Assets\Source\MindReader\MindReaderAsset.cs" />
+    <Compile Include="Assets\Source\MindReader\MindReaderProxy.cs" />
     <Compile Include="Assets\Source\MindReader\SignalStrength.cs" />
-    <Compile Include="Assets\Source\MindReader\ThreadedMindReader.cs" />
     <Compile Include="Assets\Source\MindReader\TimeMindReader.cs" />
     <Compile Include="Assets\Source\SignalStrengthView.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -768,6 +768,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9DA1E417-FFA3-0DAE-4BD6-B6D743D4D6C4}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Common.csproj">
       <Project>{8AD36F04-E37E-4534-1C8D-4BBEB24A785A}</Project>
       <Name>Common</Name>

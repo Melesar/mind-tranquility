@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MindTranquility/Scenes/MainMenu.unity
     guid: b482c9c1a4a1a854f8219f9836078065
+  - enabled: 0
+    path: Assets/NeuroSkyAssets/Example.unity
+    guid: bd6466e38bc5cf54d94bdb9e20da033f
   m_configObjects: {}

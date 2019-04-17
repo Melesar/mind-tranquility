@@ -3,8 +3,6 @@
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField]
-    private BlurOptimized _blur;
-    [SerializeField]
     private ConnectionPopup _popupPrefab;
     
     public void OnNewGameClicked()
@@ -19,10 +17,6 @@ public class MainMenuController : MonoBehaviour
 
     private ConnectionPopup SpawnPopup()
     {
-        var enableBlur = new BlurTask(this, _blur);
-        var popup = Instantiate(_popupPrefab);
-//        popup.Init(enableBlur);
-
-        return popup;
+        return Instantiate(_popupPrefab);
     }
 }

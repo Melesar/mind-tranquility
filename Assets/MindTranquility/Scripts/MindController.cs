@@ -9,8 +9,6 @@ public class MindController : MonoBehaviour, ISessionListener
     private SynchronizationData _synchronizationData;
     [SerializeField]
     private TaskHandle _gameLoadedHandle;
-    [SerializeField]
-    private float _updateInterval = 0.1f;
 
     private void OnMeditationChanged(float oldValue, float newValue)
     {
@@ -29,7 +27,7 @@ public class MindController : MonoBehaviour, ISessionListener
 
     private void Start()
     {
-        _mindReader.Init(new FakeCoroutineMindReader(this, _updateInterval));
+        _mindReader.Init(new MindReader());
     }
 
     public void OnSessionStart()
