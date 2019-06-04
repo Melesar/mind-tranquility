@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Content\Projects\MindTranquility" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CatsMeditating" t="Include">
+          <e p="CatsMeditationController.cs" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="Cats_ImageBlend.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="Readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="MindTranquility" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="BallController.cs" t="Include" />
+            <e p="ConnectionHandle.cs" t="Include" />
+            <e p="GameOver.cs" t="Include" />
+            <e p="GroundGlow.cs" t="Include" />
+            <e p="MainMenuController.cs" t="Include" />
+            <e p="MindController.cs" t="Include" />
+            <e p="Networking" t="Include">
+              <e p="ClientApplication.cs" t="Include" />
+              <e p="ISessionListener.cs" t="Include" />
+              <e p="Messages" t="Include">
+                <e p="ConnectionRequest.cs" t="Include" />
+                <e p="ConnectionResponse.cs" t="Include" />
+                <e p="MeditationMessage.cs" t="Include" />
+                <e p="ReadyNotification.cs" t="Include" />
+              </e>
+              <e p="NetworkController.cs" t="Include" />
+              <e p="PlayerData.cs" t="Include" />
+              <e p="ServerApplication.cs" t="Include" />
+              <e p="SynchronizationData.cs" t="Include" />
+            </e>
+            <e p="SceneController.cs" t="Include" />
+            <e p="Tasks" t="Include">
+              <e p="ActionTask.cs" t="Include" />
+              <e p="Base" t="Include">
+                <e p="ITask.cs" t="Include" />
+                <e p="ITaskContainer.cs" t="Include" />
+                <e p="ParallelTask.cs" t="Include" />
+                <e p="Task.cs" t="Include" />
+                <e p="TaskSequence.cs" t="Include" />
+              </e>
+              <e p="ClientsReadyTask.cs" t="Include" />
+              <e p="InstantiationTask.cs" t="Include" />
+              <e p="SendMessageTask.cs" t="Include" />
+              <e p="TaskExtensions.cs" t="Include" />
+              <e p="TaskHandle.cs" t="Include" />
+              <e p="UI" t="Include">
+                <e p="BlurTask.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UI" t="Include">
+              <e p="Blur.cs" t="Include" />
+              <e p="BlurOptimized.cs" t="Include" />
+              <e p="ConnectionPopup.cs" t="Include" />
+              <e p="CountdownView.cs" t="Include" />
+              <e p="GameOverView.cs" t="Include" />
+              <e p="GameViewController.cs" t="Include" />
+              <e p="InputValidationAnimation.cs" t="Include" />
+              <e p="MainMenuAnimation.cs" t="Include" />
+              <e p="Popup.cs" t="Include" />
+            </e>
+            <e p="WinnerEvent.cs" t="Include" />
+            <e p="WinnerEventListener.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Blur.shader" t="Include" />
+            <e p="GroundGlow.shader" t="Include" />
+            <e p="MobileBlur.shader" t="Include" />
+          </e>
+        </e>
+        <e p="MobileConsole" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="MobileConsole.cs" t="Include" />
+            <e p="Style.cs" t="Include" />
+          </e>
+        </e>
+        <e p="NeuroSkyAssets" t="Include">
+          <e p="NeuroSkyScripts" t="Include">
+            <e p="DisplayData.cs" t="Include" />
+            <e p="PreserveGameObject.cs" t="Include" />
+            <e p="TGCConnectionController.cs" t="Include" />
+            <e p="ThinkGearController.cs" t="Include" />
+          </e>
+          <e p="NeuroSkyTGCController" t="Include">
+            <e p="Readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+            <e p="res" t="Include">
+              <e p="layout" t="Include">
+                <e p="main.xml" t="Include" />
+              </e>
+              <e p="values" t="Include">
+                <e p="strings.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="UnityThinkGear.cs" t="Include" />
+        </e>
+        <e p="Source" t="Include">
+          <e p="Framework" t="Include">
+            <e p="AssetWrapper.cs" t="Include" />
+            <e p="Data" t="Include">
+              <e p="AnimatorParameter.cs" t="Include" />
+              <e p="BoolVariable.cs" t="Include" />
+              <e p="DisposableBundle.cs" t="Include" />
+              <e p="FloatVariable.cs" t="Include" />
+              <e p="IntVariable.cs" t="Include" />
+              <e p="PersistantScriptableObject.cs" t="Include" />
+              <e p="StringVariable.cs" t="Include" />
+              <e p="Variable.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="BoolReferenceDrawer.cs" t="Include" />
+              <e p="DataReferenceDrawer.cs" t="Include" />
+              <e p="FloatReferenceDrawer.cs" t="Include" />
+              <e p="GameEventEditor.cs" t="Include" />
+              <e p="IntReferenceDrawer.cs" t="Include" />
+              <e p="StringReferenceDrawer.cs" t="Include" />
+              <e p="WindowDescriptorEditor.cs" t="Include" />
+            </e>
+            <e p="EventListeners" t="Include">
+              <e p="GameEventListener.cs" t="Include" />
+              <e p="GameObjectEventListener.cs" t="Include" />
+              <e p="GenericEventListener.cs" t="Include" />
+              <e p="ICollisionListener.cs" t="Include" />
+              <e p="IEventListener.cs" t="Include" />
+              <e p="IGenericEventListener.cs" t="Include" />
+              <e p="ITriggerListener.cs" t="Include" />
+              <e p="StateChangeListener.cs" t="Include" />
+              <e p="UndoableEventListener.cs" t="Include" />
+            </e>
+            <e p="Events" t="Include">
+              <e p="CollisionBroadcaster.cs" t="Include" />
+              <e p="GameEvent.cs" t="Include" />
+              <e p="GameObjectEvent.cs" t="Include" />
+              <e p="GenericGameEvent.cs" t="Include" />
+              <e p="UndoableGameEvent.cs" t="Include" />
+            </e>
+            <e p="Extensions.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="Data" t="Include">
+                <e p="PlayerControlData.cs" t="Include" />
+              </e>
+              <e p="InputHadler.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IUndoable.cs" t="Include" />
+            </e>
+            <e p="ObjectDestroyer.cs" t="Include" />
+            <e p="References" t="Include">
+              <e p="BoolReference.cs" t="Include" />
+              <e p="DataReference.cs" t="Include" />
+              <e p="FloatReference.cs" t="Include" />
+              <e p="IntReference.cs" t="Include" />
+              <e p="StringReference.cs" t="Include" />
+            </e>
+            <e p="RuntimeSets" t="Include">
+              <e p="RuntimeSet.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="DynamicText.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="IWindowCloseListener.cs" t="Include" />
+                <e p="IWindowOpenListener.cs" t="Include" />
+              </e>
+              <e p="UndoablesStack.cs" t="Include" />
+              <e p="Window.cs" t="Include" />
+              <e p="WindowBehaviours" t="Include">
+                <e p="WindowActivation.cs" t="Include" />
+                <e p="WindowStack.cs" t="Include" />
+              </e>
+              <e p="WindowDescriptor.cs" t="Include" />
+              <e p="WindowInvoker.cs" t="Include" />
+            </e>
+            <e p="Utilites.cs" t="Include" />
+          </e>
+          <e p="MindReader" t="Include">
+            <e p="FakeCoroutineMindReader.cs" t="Include" />
+            <e p="IMindReader.cs" t="Include" />
+            <e p="MindReader.cs" t="Include" />
+            <e p="MindReaderAsset.cs" t="Include" />
+            <e p="MindReaderProxy.cs" t="Include" />
+            <e p="SignalStrength.cs" t="Include" />
+            <e p="TimeMindReader.cs" t="Include" />
+          </e>
+          <e p="Network" t="Include">
+            <e p="Common" t="Include">
+              <e p="Common.asmdef" t="Include" />
+              <e p="ConnectionData.cs" t="Include" />
+              <e p="ConnectionHandler.cs" t="Include" />
+              <e p="IConnectionListener.cs" t="Include" />
+              <e p="Messaging" t="Include">
+                <e p="IMessage.cs" t="Include" />
+                <e p="MessageHandler.cs" t="Include" />
+                <e p="MessageHeaderAttribute.cs" t="Include" />
+                <e p="Messages" t="Include">
+                  <e p="ClientInputMessage.cs" t="Include" />
+                  <e p="Ping.cs" t="Include" />
+                  <e p="TextureMessage.cs" t="Include" />
+                </e>
+                <e p="MessageSerializer.cs" t="Include" />
+              </e>
+              <e p="NetworkLogger.cs" t="Include" />
+              <e p="Serialization.cs" t="Include" />
+              <e p="UDPConnection.cs" t="Include" />
+              <e p="UnityTasks" t="Include">
+                <e p="BatchTask.cs" t="Include" />
+                <e p="DebugTask.cs" t="Include" />
+                <e p="EmptyTask.cs" t="Include" />
+                <e p="FireEventTask.cs" t="Include" />
+                <e p="ITaskQueue.cs" t="Include" />
+                <e p="IUnityTask.cs" t="Include" />
+                <e p="SendMessageTask.cs" t="Include" />
+                <e p="TaskQueue.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SignalStrengthView.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Common.csproj" t="IncludeRecursive" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="MindTranquility.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\serge\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\serge\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_MindTranquility.-1582267534.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -34,7 +34,9 @@ public class MindReader : IMindReader
     private GameObject SetupProxy()
     {
         var proxyObj = new GameObject("ThinkGear");
+        
         var proxy = proxyObj.AddComponent<MindReaderProxy>();
+        proxy.focusChanged += SetFocus;
         proxy.meditationChanged += SetMeditation;
         proxy.signalStrengthChanged += SetSignalStrength;
 
