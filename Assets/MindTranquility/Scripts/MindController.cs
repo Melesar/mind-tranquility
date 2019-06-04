@@ -27,8 +27,8 @@ public class MindController : MonoBehaviour, ISessionListener
 
     private void Start()
     {
-        _mindReader.Init(new FakeCoroutineMindReader(this, 0.01f));
-//        _mindReader.Init(new MindReader());
+//        _mindReader.Init(new FakeCoroutineMindReader(this, 0.01f));
+        _mindReader.Init(new MindReader());
     }
 
     public void OnSessionStart()

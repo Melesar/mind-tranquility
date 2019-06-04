@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90082d51-8d6d-47d5-97d5-b50d089c5a22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MindTranquility/Scenes/Persistant.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MindTranquility/Scenes/Persistant.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Common.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +73,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <marker date="1559638527697" expanded="false" signature="6:51" ph="..." />
+                <marker date="1559638527697" expanded="true" signature="386:458" ph="{...}" />
+                <marker date="1559638527697" expanded="true" signature="500:580" ph="{...}" />
+                <marker date="1559638527697" expanded="true" signature="610:653" ph="{...}" />
+                <marker date="1559638527697" expanded="true" signature="839:991" ph="{...}" />
+                <marker date="1559638527697" expanded="true" signature="1023:1103" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderAsset.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -332,10 +339,10 @@
         <option value="$PROJECT_DIR$/Assets/Source/MindReader/MindReaderProxy.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" />
-        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Editor/MindReaderAssetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" />
+        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" />
       </list>
     </option>
   </component>
@@ -460,7 +467,7 @@
       <workItem from="1555452006160" duration="681000" />
       <workItem from="1555522536239" duration="7501000" />
       <workItem from="1559635297748" duration="99000" />
-      <workItem from="1559635442784" duration="2504000" />
+      <workItem from="1559635442784" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. System is built, but some networking issues exist">
       <created>1554664141658</created>
@@ -508,7 +515,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156512000" />
+    <option name="totallyTimeSpent" value="157090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,23 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <marker date="1559635678032" expanded="false" signature="6:51" ph="..." />
-            <marker date="1559635678032" expanded="true" signature="114:1105" ph="{...}" />
-            <marker date="1559635678032" expanded="true" signature="386:458" ph="{...}" />
-            <marker date="1559635678032" expanded="true" signature="500:580" ph="{...}" />
-            <marker date="1559635678032" expanded="true" signature="610:653" ph="{...}" />
-            <marker date="1559635678032" expanded="true" signature="679:805" ph="{...}" />
-            <marker date="1559635678032" expanded="true" signature="839:991" ph="{...}" />
-            <marker date="1559635678032" expanded="true" signature="1023:1103" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/IUnityTask.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1080,6 +1070,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <marker date="1559637948269" expanded="false" signature="6:79" ph="..." />
+            <marker date="1559637948269" expanded="true" signature="131:4267" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="551:652" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="698:826" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="753:820" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="933:1994" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="995:1045" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="1319:1522" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2091:2474" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2144:2194" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2565:2899" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2612:2662" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2731:2866" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2943:3041" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3103:3176" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3262:3517" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3316:3443" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3364:3421" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3556:3827" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3953:4265" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3991:4049" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <marker date="1554650344522" expanded="false" signature="6:111" ph="..." />
+            <marker date="1554650344522" expanded="true" signature="159:2648" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="541:1347" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="822:1133" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1146:1226" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1379:1706" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1425:1465" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1741:1865" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1898:2020" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2063:2098" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2125:2259" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2285:2465" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2495:2646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-614">
@@ -1115,54 +1157,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="396">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
-            <marker date="1554650344522" expanded="false" signature="6:111" ph="..." />
-            <marker date="1554650344522" expanded="true" signature="159:2648" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="541:1347" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="822:1133" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="1146:1226" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="1379:1706" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="1425:1465" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="1741:1865" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="1898:2020" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="2063:2098" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="2125:2259" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="2285:2465" ph="{...}" />
-            <marker date="1554650344522" expanded="true" signature="2495:2646" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-          <folding>
-            <marker date="1559637948269" expanded="false" signature="6:79" ph="..." />
-            <marker date="1559637948269" expanded="true" signature="131:4267" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="551:652" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="698:826" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="753:820" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="933:1994" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="995:1045" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="1319:1522" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="2091:2474" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="2144:2194" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="2565:2899" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="2612:2662" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="2731:2866" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="2943:3041" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3103:3176" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3262:3517" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3316:3443" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3364:3421" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3556:3827" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3953:4265" ph="{...}" />
-            <marker date="1559637948269" expanded="true" signature="3991:4049" ph="{...}" />
+            <marker date="1559638527697" expanded="false" signature="6:51" ph="..." />
+            <marker date="1559638527697" expanded="true" signature="386:458" ph="{...}" />
+            <marker date="1559638527697" expanded="true" signature="500:580" ph="{...}" />
+            <marker date="1559638527697" expanded="true" signature="610:653" ph="{...}" />
+            <marker date="1559638527697" expanded="true" signature="839:991" ph="{...}" />
+            <marker date="1559638527697" expanded="true" signature="1023:1103" ph="{...}" />
           </folding>
         </state>
       </provider>
