@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90082d51-8d6d-47d5-97d5-b50d089c5a22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MindTranquility/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MindTranquility/Scenes/Persistant.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MindTranquility/Scenes/Persistant.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Common.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,70 +20,64 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-105068852">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="39347" />
-          <entry key="shader" value="599" />
-          <entry key="txt" value="216" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="39347" />
-          <entry key="PLAIN_TEXT" value="216" />
-          <entry key="ShaderLab" value="599" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="340" />
-          <entry key="shader" value="5" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="340" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="ShaderLab" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="198">
+              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
-                <marker date="1555528445357" expanded="false" signature="6:179" ph="..." />
-                <marker date="1555528445357" expanded="true" signature="218:2218" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="626:893" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="930:1239" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1297:1356" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1404:1453" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1519:2033" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1559:1639" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1702:1784" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1846:1932" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="1945:2027" ph="{...}" />
-                <marker date="1555528445357" expanded="true" signature="2072:2216" ph="{...}" />
+                <marker date="1554650344522" expanded="false" signature="6:111" ph="..." />
+                <marker date="1554650344522" expanded="true" signature="159:2648" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="541:1347" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="822:1133" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="1146:1226" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="1379:1706" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="1425:1465" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="1741:1865" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="1898:2020" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="2063:2098" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="2125:2259" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="2285:2465" ph="{...}" />
+                <marker date="1554650344522" expanded="true" signature="2495:2646" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-614">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <marker date="1554808451664" expanded="false" signature="6:90" ph="..." />
+                <marker date="1554808451664" expanded="true" signature="142:4953" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="640:959" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="1027:1513" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="1089:1139" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="1613:2384" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="1722:1772" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="2133:2324" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="2476:2680" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="2548:2598" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="2750:2885" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="2782:2879" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="2925:3033" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="3083:3454" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="3158:3198" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="3251:3412" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="3490:3605" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="3670:3691" ph="{...}" />
+                <marker date="1554808451664" expanded="false" signature="3697:4951" ph="Tasks" />
+                <marker date="1554808451664" expanded="true" signature="3761:4329" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="3924:4104" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="4205:4323" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="4376:4935" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="4511:4628" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="4761:4813" ph="{...}" />
+                <marker date="1554808451664" expanded="true" signature="4871:4929" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderAsset.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="-24">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <marker date="1553960884959" expanded="false" signature="6:60" ph="..." />
                 <marker date="1553960884959" expanded="true" signature="177:950" ph="{...}" />
@@ -95,137 +99,68 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="36">
+              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
               <folding>
-                <marker date="1555526457792" expanded="false" signature="6:51" ph="..." />
-                <marker date="1555526457792" expanded="true" signature="114:1035" ph="{...}" />
-                <marker date="1555526457792" expanded="true" signature="386:458" ph="{...}" />
-                <marker date="1555526457792" expanded="true" signature="500:580" ph="{...}" />
-                <marker date="1555526457792" expanded="true" signature="610:653" ph="{...}" />
-                <marker date="1555526457792" expanded="true" signature="679:735" ph="{...}" />
-                <marker date="1555526457792" expanded="true" signature="769:921" ph="{...}" />
-                <marker date="1555526457792" expanded="true" signature="953:1033" ph="{...}" />
+                <marker date="1559637948269" expanded="false" signature="6:79" ph="..." />
+                <marker date="1559637948269" expanded="true" signature="131:4267" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="551:652" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="698:826" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="753:820" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="933:1994" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="995:1045" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="1319:1522" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="2091:2474" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="2144:2194" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="2565:2899" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="2612:2662" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="2731:2866" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="2943:3041" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3103:3176" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3262:3517" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3316:3443" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3364:3421" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3556:3827" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3953:4265" ph="{...}" />
+                <marker date="1559637948269" expanded="true" signature="3991:4049" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderProxy.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/PlayerData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
-                <marker date="1555526777495" expanded="true" signature="6:32" ph="..." />
-                <marker date="1555526777495" expanded="true" signature="78:557" ph="{...}" />
-                <marker date="1555526777495" expanded="true" signature="270:339" ph="{...}" />
-                <marker date="1555526777495" expanded="true" signature="385:450" ph="{...}" />
-                <marker date="1555526777495" expanded="true" signature="495:555" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="74:759" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="193:233" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="258:279" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="313:465" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="376:457" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="507:757" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="544:584" ph="{...}" />
+                <marker date="1553959798544" expanded="true" signature="652:749" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityThinkGear.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <marker date="1555526569617" expanded="false" signature="6:82" ph="..." />
-                <marker date="1555526569617" expanded="true" signature="111:5072" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="1421:2165" ph="/* Following are connection status that declared in UnityThinkGear2User.Jar ... */" />
-                <marker date="1555526569617" expanded="true" signature="2292:2566" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="2594:2717" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="2751:2884" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="2918:3046" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="3260:3299" ph="/* Tommy end ... */" />
-                <marker date="1555526569617" expanded="true" signature="3338:3517" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="3556:3735" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="3777:3962" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="4003:4186" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="4267:4426" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="4477:4635" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="4689:4853" ph="{...}" />
-                <marker date="1555526569617" expanded="true" signature="4906:5068" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/ThinkGearController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding>
-                <marker date="1555523266000" expanded="false" signature="6:44" ph="..." />
-                <marker date="1555523266000" expanded="true" signature="95:8898" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="1811:1925" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="1973:2253" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="2303:2309" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="2335:3922" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="2389:2461" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="2511:2585" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="2876:2948" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="3235:3309" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="3408:3486" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="3579:3659" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="3715:3791" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="3841:3919" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="3977:3986" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4023:4131" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4082:4128" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4166:4267" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4220:4264" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4309:4437" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4385:4434" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4474:4587" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4536:4584" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4625:4751" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4699:4748" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4784:4887" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4838:4884" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4920:5023" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="4974:5020" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5059:5172" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5120:5169" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5209:5325" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5272:5322" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5360:5470" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5419:5467" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5506:5619" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5567:5616" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5655:5768" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5716:5765" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5805:5921" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5868:5918" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="5987:6122" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6074:6118" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6174:7912" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6303:7906" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6358:6543" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6426:6529" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6581:6769" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6651:6755" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6815:6995" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="6880:6981" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7041:7221" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7106:7207" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7267:7447" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7332:7433" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7492:7670" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7556:7656" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7716:7896" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7781:7882" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="7965:8602" ph="/* receive &quot;idle&quot; : BT is null or connect status has not been updated ... */" />
-                <marker date="1555523266000" expanded="true" signature="8646:8769" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="8726:8766" ph="{...}" />
-                <marker date="1555523266000" expanded="true" signature="8829:8893" ph="{...}" />
+                <marker date="1554798827824" expanded="true" signature="55:740" ph="{...}" />
+                <marker date="1554798827824" expanded="true" signature="163:286" ph="{...}" />
+                <marker date="1554798827824" expanded="true" signature="393:516" ph="{...}" />
+                <marker date="1554798827824" expanded="true" signature="604:738" ph="{...}" />
+                <marker date="1554798827824" expanded="true" signature="679:732" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -236,116 +171,120 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SendMessageTask</find>
+      <find>static class</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1D5F7755-FB2F-48BB-ABA0-E09965079231/fb/00deb117/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Events/GenericGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D7AC571C-A2D0-4B2F-981D-0D886FA067CF/9d/f60df913/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/References/DataReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/GroundGlow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/ConnectionHandle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/CountdownView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/References/FloatReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/WinnerEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/WinnerEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/EventListeners/ICollisionListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/EventListeners/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/Blur.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/BallController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/EventListeners/GenericEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/GameViewController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/MainMenuAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MobileConsole/Scripts/MobileConsole.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/ConnectionPopup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/IMindReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/Popup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/InputValidationAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/SignalStrength.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/GameOverView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/TimeMindReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskHandle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderAsset.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/InstantiationTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/ActionTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/TaskSequence.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ParallelTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/UI/BlurTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ITask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/Task.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ISessionListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ConnectionRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/SynchronizationData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/MeditationMessage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ConnectionResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Shaders/Blur.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderProxy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Shaders/GroundGlow.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/NetworkLogger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/SignalStrengthView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/ThinkGearController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Serialization.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/IConnectionListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UDPConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/ConnectionHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageSerializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHeaderAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/Messages/ClientInputMessage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/Messages/Ping.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ReadyNotification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/ITaskQueue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/SendMessageTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/EmptyTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/TaskQueue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/BatchTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/DebugTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/FireEventTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/SendMessageTask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/AssetWrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CatsMeditating/CatsMeditationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Utilites.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/e9/2a908af3/UdpClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CatsMeditating/Shaders/Cats_ImageBlend.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Events/CollisionBroadcaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/ClientsReadyTask.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DEC04D1-DAE7-49FC-95A0-1808EC8DECCE/f4/e8a44a80/TableCellsCollectionEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/UI/DynamicText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CatsMeditating/Shaders/Cats_ImageBlend.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ITaskContainer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/TGCConnectionController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/BlurOptimized.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/PreserveGameObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/DisplayData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/b1/43a9f0fc/DomainUpDown.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D7AC571C-A2D0-4B2F-981D-0D886FA067CF/2e/0f3809a4/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Editor/FloatReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CatsMeditating/CatsMeditationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Editor/DataReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F6EB572-3706-4745-9E58-3A3BD0A90A3C/70/de54dd02/HttpTaskAsyncHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Editor/FloatReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Utilites.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/988FA076-10C9-4365-AE6D-295A6AA379FE/f5/c1f06e42/BindingList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MobileConsole/Scripts/MobileConsole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/AssetWrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/Blur.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/DebugTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/BatchTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/SendMessageTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/InputValidationAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/FireEventTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/GameOverView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/IUnityTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/TaskQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/ITaskQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/EmptyTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/GameViewController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/Popup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Shaders/GroundGlow.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/ConnectionPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/CountdownView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Shaders/Blur.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ReadyNotification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D7AC571C-A2D0-4B2F-981D-0D886FA067CF/2e/0f3809a4/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/Messages/Ping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/MainMenuAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/Messages/ClientInputMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ConnectionResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/MeditationMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHeaderAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/BallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/SynchronizationData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ConnectionRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/ConnectionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ISessionListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UDPConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/NetworkLogger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ITask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Serialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/TaskSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ITaskContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/WinnerEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/UI/BlurTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/WinnerEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ParallelTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Network/Common/IConnectionListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/ActionTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/InstantiationTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/SendMessageTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/SignalStrengthView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UnityThinkGear.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/Events/CollisionBroadcaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/BlurOptimized.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderAsset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/ConnectionHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/GroundGlow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/SignalStrength.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/IMindReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/MindReader/TimeMindReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/4c/9a6c1f29/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/b1/43a9f0fc/DomainUpDown.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/EventListeners/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/e9/2a908af3/UdpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/EventListeners/GenericEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/EventListeners/ICollisionListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D7AC571C-A2D0-4B2F-981D-0D886FA067CF/9d/f60df913/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1D5F7755-FB2F-48BB-ABA0-E09965079231/fb/00deb117/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MindTranquility/MindReader.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/References/FloatReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Framework/References/DataReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/ThinkGearController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/TGCConnectionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/DisplayData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/PreserveGameObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/GroundGlow.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/WinnerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/WinnerEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/GameOver.cs" />
@@ -362,7 +301,6 @@
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ReadyNotification.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/SynchronizationData.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/GameViewController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/UI/BlurTask.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/FireEventTask.cs" />
@@ -370,7 +308,6 @@
         <option value="$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/BatchTask.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Network/Common/ConnectionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/CountdownView.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Network/Common/NetworkLogger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/TaskQueue.cs" />
@@ -384,7 +321,6 @@
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/ConnectionPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ITaskContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/TaskSequence.cs" />
-        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/Base/ParallelTask.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/Popup.cs" />
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs" />
@@ -392,10 +328,14 @@
         <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MainMenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/MindReader/Receiver.cs" />
         <option value="$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/ThinkGearController.cs" />
-        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UnityThinkGear.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/MindReader/MindReaderProxy.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/MindTranquility/Editor/MindReaderAssetEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs" />
       </list>
     </option>
   </component>
@@ -411,47 +351,45 @@
     <option name="width" value="730" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
               <item name="MindTranquility" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Source" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Source" type="1045f7f1:UnityExplorerNode" />
-              <item name="MindReader" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Push&#9;ACTION&#9;Vcs.Push&#10;vcs&#9;ACTION&#9;VcsGroups" />
@@ -472,13 +410,17 @@
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="24804">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" value="24804" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <list>
@@ -517,6 +459,8 @@
       <workItem from="1555443769950" duration="822000" />
       <workItem from="1555452006160" duration="681000" />
       <workItem from="1555522536239" duration="7501000" />
+      <workItem from="1559635297748" duration="99000" />
+      <workItem from="1559635442784" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. System is built, but some networking issues exist">
       <created>1554664141658</created>
@@ -564,7 +508,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153909000" />
+    <option name="totallyTimeSpent" value="156512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,11 +523,11 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27408853" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27408853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.0" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -597,22 +541,21 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Performance Profiler" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit. System is built, but some networking issues exist" />
@@ -632,9 +575,6 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -648,34 +588,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/Network/Common/Messaging/MessageHeaderAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/Messages/ConnectionRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/SendMessageTask.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/SendMessageTask.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -687,20 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -861,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/BlurOptimized.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -896,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/UI/Popup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -911,31 +795,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/Receiver.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/ThreadedMindReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-593">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1554304607025" expanded="false" signature="6:72" ph="..." />
-            <marker date="1554304607025" expanded="true" signature="124:1277" ph="{...}" />
-            <marker date="1554304607025" expanded="true" signature="304:571" ph="{...}" />
-            <marker date="1554304607025" expanded="true" signature="331:565" ph="{...}" />
-            <marker date="1554304607025" expanded="true" signature="655:1002" ph="{...}" />
-            <marker date="1554304607025" expanded="true" signature="1029:1137" ph="{...}" />
-            <marker date="1554304607025" expanded="true" signature="1064:1131" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/CoroutineMindReader.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/ThreadedMindReader.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/CoroutineMindReader.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/CatsMeditating/CatsMeditationController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
@@ -988,23 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <marker date="1555526457792" expanded="false" signature="6:51" ph="..." />
-            <marker date="1555526457792" expanded="true" signature="114:1035" ph="{...}" />
-            <marker date="1555526457792" expanded="true" signature="386:458" ph="{...}" />
-            <marker date="1555526457792" expanded="true" signature="500:580" ph="{...}" />
-            <marker date="1555526457792" expanded="true" signature="610:653" ph="{...}" />
-            <marker date="1555526457792" expanded="true" signature="679:735" ph="{...}" />
-            <marker date="1555526457792" expanded="true" signature="769:921" ph="{...}" />
-            <marker date="1555526457792" expanded="true" signature="953:1033" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderProxy.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1021,7 +865,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityThinkGear.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
+        <state relative-caret-position="1908">
           <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
           <folding>
             <marker date="1555526569617" expanded="false" signature="6:82" ph="..." />
@@ -1046,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NeuroSkyAssets/NeuroSkyScripts/ThinkGearController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="306">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <marker date="1555523266000" expanded="false" signature="6:44" ph="..." />
@@ -1116,24 +960,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderAsset.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/FakeCoroutineMindReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding>
-            <marker date="1553960884959" expanded="false" signature="6:60" ph="..." />
-            <marker date="1553960884959" expanded="true" signature="177:950" ph="{...}" />
-            <marker date="1553960884959" expanded="true" signature="444:490" ph="{...}" />
-            <marker date="1553960884959" expanded="true" signature="519:619" ph="{...}" />
-            <marker date="1553960884959" expanded="true" signature="646:690" ph="{...}" />
+            <marker date="1559635678016" expanded="false" signature="6:72" ph="..." />
+            <marker date="1559635678016" expanded="true" signature="124:1271" ph="{...}" />
+            <marker date="1559635678016" expanded="true" signature="304:565" ph="{...}" />
+            <marker date="1559635678016" expanded="true" signature="331:559" ph="{...}" />
+            <marker date="1559635678016" expanded="true" signature="649:996" ph="{...}" />
+            <marker date="1559635678016" expanded="true" signature="1023:1131" ph="{...}" />
+            <marker date="1559635678016" expanded="true" signature="1058:1125" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <marker date="1555528445357" expanded="false" signature="6:179" ph="..." />
             <marker date="1555528445357" expanded="true" signature="218:2218" ph="{...}" />
@@ -1147,6 +993,176 @@
             <marker date="1555528445357" expanded="true" signature="1846:1932" ph="{...}" />
             <marker date="1555528445357" expanded="true" signature="1945:2027" ph="{...}" />
             <marker date="1555528445357" expanded="true" signature="2072:2216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/MindController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <marker date="1559635678032" expanded="false" signature="6:51" ph="..." />
+            <marker date="1559635678032" expanded="true" signature="114:1105" ph="{...}" />
+            <marker date="1559635678032" expanded="true" signature="386:458" ph="{...}" />
+            <marker date="1559635678032" expanded="true" signature="500:580" ph="{...}" />
+            <marker date="1559635678032" expanded="true" signature="610:653" ph="{...}" />
+            <marker date="1559635678032" expanded="true" signature="679:805" ph="{...}" />
+            <marker date="1559635678032" expanded="true" signature="839:991" ph="{...}" />
+            <marker date="1559635678032" expanded="true" signature="1023:1103" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Network/Common/UnityTasks/IUnityTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <marker date="1551883476361" expanded="true" signature="16:88" ph="{...}" />
+            <marker date="1551883476361" expanded="true" signature="50:86" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Tasks/TaskExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1554798827824" expanded="true" signature="55:740" ph="{...}" />
+            <marker date="1554798827824" expanded="true" signature="163:286" ph="{...}" />
+            <marker date="1554798827824" expanded="true" signature="393:516" ph="{...}" />
+            <marker date="1554798827824" expanded="true" signature="604:738" ph="{...}" />
+            <marker date="1554798827824" expanded="true" signature="679:732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/MindReader.asset">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Editor/MindReaderAssetEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/MindReader/MindReaderAsset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1553960884959" expanded="false" signature="6:60" ph="..." />
+            <marker date="1553960884959" expanded="true" signature="177:950" ph="{...}" />
+            <marker date="1553960884959" expanded="true" signature="444:490" ph="{...}" />
+            <marker date="1553960884959" expanded="true" signature="519:619" ph="{...}" />
+            <marker date="1553960884959" expanded="true" signature="646:690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/PlayerData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1553959798544" expanded="true" signature="74:759" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="193:233" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="258:279" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="313:465" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="376:457" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="507:757" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="544:584" ph="{...}" />
+            <marker date="1553959798544" expanded="true" signature="652:749" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ClientApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <marker date="1554808451664" expanded="false" signature="6:90" ph="..." />
+            <marker date="1554808451664" expanded="true" signature="142:4953" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="640:959" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="1027:1513" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="1089:1139" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="1613:2384" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="1722:1772" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="2133:2324" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="2476:2680" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="2548:2598" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="2750:2885" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="2782:2879" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="2925:3033" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="3083:3454" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="3158:3198" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="3251:3412" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="3490:3605" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="3670:3691" ph="{...}" />
+            <marker date="1554808451664" expanded="false" signature="3697:4951" ph="Tasks" />
+            <marker date="1554808451664" expanded="true" signature="3761:4329" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="3924:4104" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="4205:4323" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="4376:4935" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="4511:4628" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="4761:4813" ph="{...}" />
+            <marker date="1554808451664" expanded="true" signature="4871:4929" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/NetworkController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <marker date="1554650344522" expanded="false" signature="6:111" ph="..." />
+            <marker date="1554650344522" expanded="true" signature="159:2648" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="541:1347" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="822:1133" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1146:1226" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1379:1706" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1425:1465" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1741:1865" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="1898:2020" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2063:2098" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2125:2259" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2285:2465" ph="{...}" />
+            <marker date="1554650344522" expanded="true" signature="2495:2646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MindTranquility/Scripts/Networking/ServerApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <marker date="1559637948269" expanded="false" signature="6:79" ph="..." />
+            <marker date="1559637948269" expanded="true" signature="131:4267" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="551:652" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="698:826" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="753:820" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="933:1994" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="995:1045" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="1319:1522" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2091:2474" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2144:2194" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2565:2899" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2612:2662" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2731:2866" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="2943:3041" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3103:3176" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3262:3517" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3316:3443" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3364:3421" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3556:3827" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3953:4265" ph="{...}" />
+            <marker date="1559637948269" expanded="true" signature="3991:4049" ph="{...}" />
           </folding>
         </state>
       </provider>

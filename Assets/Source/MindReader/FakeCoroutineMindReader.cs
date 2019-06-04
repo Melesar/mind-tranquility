@@ -12,8 +12,8 @@ public class FakeCoroutineMindReader : IMindReader
     {
         while (true)
         {
-            Meditation.Value = (1 + Mathf.Sin(Random.value * Mathf.PI)) / 2f;
-            Focus.Value = (1 + Mathf.Cos(Random.value * Mathf.PI)) / 2f;
+            Meditation.Value = (1 + Mathf.Sin(Time.time * Mathf.PI)) / 2f;
+            Focus.Value = (1 + Mathf.Cos(Time.time * Mathf.PI)) / 2f;
 
             yield return new WaitForSeconds(_updateInterval);
         }

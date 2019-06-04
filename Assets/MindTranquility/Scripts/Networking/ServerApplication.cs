@@ -116,7 +116,7 @@ public class ServerApplication : ConnectionHandler
 
     private void RegisterFakeClient()
     {
-        var fakeClient = new PlayerData {Meditation = 0.2f, Name = "Mahatma Gandi"};
+        var fakeClient = new PlayerData {Meditation = 0.4f, Name = "Mahatma Gandi"};
         var fakeAddress = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1440);
         _connectedPlayers.Add(fakeAddress, fakeClient);
         _playersReady.Add(fakeAddress);
